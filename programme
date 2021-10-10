@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void)
+{
+
+// Déclaration des variables
+    float AB;
+    float BC;
+
+// Saisie des longueurs de AB et BC par l'utilisateur
+    printf("Longueur de AB : ");
+    scanf("%f", &AB);
+    printf("Longueur de BC : ");
+    scanf("%f", &BC);
+
+// Calcul de l'hypothénuse et affichage du résultat
+    printf("La longueur de l'hypothénuse est de %0.2f", sqrt(AB * AB + BC * BC));
+}
