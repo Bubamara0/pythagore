@@ -15,5 +15,5 @@ int main(void)
     scanf("%f", &BC);
 
 // Calcul de l'hypothénuse et affichage du résultat
-    printf("La longueur de l'hypothénuse est de %0.2f", sqrt(AB * AB + BC * BC));
+    printf("La longueur de l'hypothénuse est de %0.2f\n", sqrt(AB * AB + BC * BC));
 }
